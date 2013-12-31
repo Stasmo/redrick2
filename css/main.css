@@ -1,0 +1,30 @@
+html, body, #content{
+	margin: 0;
+	height: 100%;
+}
+
+#header{
+	height: 100px;
+	text-align: right;
+	font-family: Chango;
+	font-size: 5em;
+}
+
+#video{
+	position: relative;
+	top: 50%;
+	height: 400px;
+	width: 600px;
+	margin: -200px auto 0 auto;
+}
+
+#content > .nav a{
+	padding: 20px;
+	font-size: 2em;
+	text-decoration: none;
+	font-family: 'Exo 2';
+}
+
+#content > .nav a:hover{
+
+}
