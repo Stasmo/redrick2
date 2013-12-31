@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$("#frame").load(function(){
 		setTimeout(function(){
 			$vid.animate({
-				marginLeft: "-310px",
+				marginLeft: "-410px",
 				opacity: 1
 			}, 500);
 		}, 1000)

@@ -15,12 +15,11 @@ html, body, #content{
 	background: #ddd;
 	border-radius: 5px;
 	padding: 10px;
-	top: 50%;
-	height: 400px;
-	width: 600px;
+	height: 600px;
+	width: 800px;
 	left: 50%;
-	margin-left: -290px;
-	margin-top: -200px;
+	margin-left: -390px;
+	margin-top: 100px;
 	box-shadow: 0 0 10px black;
 }
 
