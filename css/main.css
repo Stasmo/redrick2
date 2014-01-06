@@ -1,31 +1,37 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 1px) { 
+	#header{
+		font-size: 4em;
+	}
+}
+
+@media (min-width: 375px) { 
+	#header{
+		font-size: 5em;
+	}
+}
+
 html, body, #content{
-	margin: 0;
 	height: 100%;
 }
 
 #header{
-	height: 100px;
-	text-align: right;
 	font-family: Chango;
-	font-size: 5em;
 }
 
 #video{
-	position: relative;
-	background: #ddd;
+	background: #fefefe;
 	border-radius: 5px;
 	padding: 10px;
-	height: 600px;
-	width: 800px;
-	left: 50%;
-	margin-left: -390px;
+	height: 70%;
+	width: 100%;
 	margin-top: 100px;
 	box-shadow: 0 0 10px black;
 }
 
 #content > .nav a{
 	padding: 20px;
-	font-size: 2em;
+	font-size: 3em;
 	text-decoration: none;
 	font-family: 'Exo 2';
 }
