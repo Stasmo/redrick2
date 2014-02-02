@@ -2,18 +2,18 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 1px) { 
-	#header{
-		font-size: 6em;
+	#header h1{
+		font-size: 5em;
 	}
 }
 
 @media (min-width: 375px) { 
 	#header{
-		font-size: 7em;
+		font-size: 2em;
 	}
 }
 
-html, body, #content{
+html, body{
 	height: 100%;
 }
 
@@ -29,6 +29,10 @@ html, body, #content{
 	width: 100%;
 	margin-top: 100px;
 	box-shadow: 0 0 10px black;
+}
+
+#links {
+	margin-bottom: 100px;
 }
 
 #content > .nav a{
