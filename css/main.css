@@ -19,16 +19,18 @@ html, body{
 
 #header{
 	font-family: avenir_lt_std95_black;
+	color: black;
 }
 
 #video{
 	background: #fefefe;
 	border-radius: 5px;
 	padding: 10px;
-	height: 70%;
-	width: 100%;
-	margin-top: 100px;
+	width: 620px;
+	height: 420px;
+	margin: 50px auto 0 auto;
 	box-shadow: 0 0 10px black;
+	position: relative;
 }
 
 #links {
@@ -39,9 +41,10 @@ html, body{
 	padding: 20px;
 	font-size: 3em;
 	text-decoration: none;
-	font-family: 'Exo 2';
+	font-family: avenir_lt_std95_black;
+	font-weight: 100;
 }
 
 #content > div{
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
