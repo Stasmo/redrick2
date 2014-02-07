@@ -33,6 +33,10 @@ html, body{
 	position: relative;
 }
 
+#links > div{
+	margin-bottom: 50px;
+}
+
 #links {
 	margin-bottom: 100px;
 }
