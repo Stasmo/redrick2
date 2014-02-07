@@ -37,8 +37,11 @@ html, body{
 	margin-bottom: 50px;
 }
 
-#links {
-	margin-bottom: 100px;
+#links img{
+	background: #fefefe;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 0 10px black;
 }
 
 #content > .nav a{
