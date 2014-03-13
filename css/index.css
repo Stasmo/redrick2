@@ -9,9 +9,13 @@
 	#video iframe{
 		width: 100%;
 	}
+
+	.text-large{
+		font-size: 1em;
+	}
 }
 
-@media (min-width: 600px) { 
+@media (min-width: 992px) { 
 	#header{
 		font-size: 2em;
 	}
@@ -47,6 +51,11 @@
 		padding: 10px;
 		box-shadow: 0 0 10px black;
 	}
+
+	.text-large{
+		font-size: 3em;
+	}
+
 }
 
 html, body{
@@ -73,7 +82,5 @@ html, body{
 }
 
 .text-large{
-
 	font-family: avenir_lt_std95_black;
-	font-size: 2em;
 }
