@@ -1,9 +1,9 @@
-@import url(../fonts/ave/stylesheet.css);
+@import url(../fonts/futura/stylesheet.css);
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 1px) { 
 	#header h1{
-		font-size: 5em;
+		font-size: 4em;
 	}
 
 	#video iframe{
@@ -20,37 +20,22 @@
 		font-size: 2em;
 	}
 
-	#video iframe{
-		min-width: 600px;
-		min-height: 400px;
-	}
-
-	#video {
-		min-width: 620px;
-		min-height: 420px;
-	}
-
 	#links img{
 		width: 122px;
 		height: 122px;
 	}
 
-	#video{
-		background: #fefefe;
-		border-radius: 5px;
-		padding: 10px;
-		margin: 0 auto 0 auto;
-		box-shadow: 0 0 10px black;
-		position: relative;
+	#video iframe{
+		height: 500px;
 	}
 
-
+/*
 	#links img{
 		background: #fefefe;
 		border-radius: 5px;
 		padding: 10px;
 		box-shadow: 0 0 10px black;
-	}
+	}*/
 
 	.text-large{
 		font-size: 3em;
@@ -58,14 +43,16 @@
 
 }
 
-html, body{
-	height: 100%;
+body{
 	background: #000;
 }
 
-#header{
-	font-family: avenir_lt_std95_black;
-	color: black;
+#content {
+	color: #fff;
+}
+
+#header h1{
+	font-family: futuramedium;
 }
 
 #media > .row{
@@ -82,5 +69,13 @@ html, body{
 }
 
 .text-large{
-	font-family: avenir_lt_std95_black;
+	font-family: futuramedium;
+}
+
+#dates .table td{
+	border-color: #333;
+}
+
+#dates .table tr:hover {
+	background-color: #111;
 }
