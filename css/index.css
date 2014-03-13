@@ -52,7 +52,8 @@ body{
 }
 
 #header h1{
-	font-family: futuramedium;
+	color: #fff;
+	font-family: futuramedium, sans-serif;
 }
 
 #media > .row{
