@@ -3,4 +3,6 @@ $(document).ready(function(){
 
 	$vid.fitVids();
 
+	$("body").hide().show();
+
 })
