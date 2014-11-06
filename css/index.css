@@ -1,7 +1,8 @@
 @import url(../fonts/futura/stylesheet.css);
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 1px) { 
+@media (min-width: 1px) {
+
 	#header h1{
 		font-size: 4em;
 	}
@@ -15,7 +16,8 @@
 	}
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
+
 	#header{
 		font-size: 2em;
 	}
@@ -43,16 +45,19 @@
 
 }
 
-body{
-	background: #000;
-}
 
+	body{
+		margin-top: 3em;
+		background-image: url(/img/BJ.png);
+		background-repeat: no-repeat;
+		background-position: -200px 50px;
+	}
 #content {
-	color: #fff;
+	/*color: #fff;*/
 }
 
 #header h1{
-	color: #fff;
+	/*color: #fff;*/
 	font-family: futuramedium, sans-serif;
 }
 
@@ -78,5 +83,5 @@ body{
 }
 
 #dates .table tr:hover {
-	background-color: #111;
+	background-color: #fbfbfb;
 }
